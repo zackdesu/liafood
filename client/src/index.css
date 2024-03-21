@@ -6,7 +6,7 @@
 @layer base {
   html,
   body {
-    @apply w-full h-full scroll-smooth;
+    @apply h-full scroll-smooth font-LeagueSpartan bg-slate-50;
   }
 
   #root {
@@ -21,7 +21,7 @@
   }
 
   h1 {
-    @apply font-[900] text-2xl sm:text-3xl md:text-4xl;
+    @apply font-[800] text-2xl sm:text-3xl md:text-4xl;
   }
 
   h2 {
@@ -42,5 +42,9 @@
 
   p {
     @apply text-xs md:text-base;
+  }
+
+  button {
+    @apply text-base sm:text-lg;
   }
 }
