@@ -9,8 +9,8 @@ export default {
       colors: {
         "blue-primary": "#304674",
         "pink-primary": "#fb6f92",
-        "blue-secondary": "#98bad5",
-        "pink-secondary": "#ffc2d1",
+        "blue-secondary": "#fafdff",
+        "pink-secondary": "#fff7f9",
       },
     },
   },
