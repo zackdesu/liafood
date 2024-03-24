@@ -2,7 +2,7 @@ import { IoSearchSharp } from "react-icons/io5";
 import { FaCartShopping } from "react-icons/fa6";
 const Navbar = () => {
   return (
-    <header className="fixed px-5 py-3 flex justify-between items-center w-full bg-blue-secondary text-slate-50 border-b border-slate-300 shadow-md">
+    <header className="fixed px-5 py-3 flex justify-between items-center w-full bg-blue-secondary text-slate-50 border-b border-slate-300 shadow-md rounded-b-md">
       <h1 className="group cursor-pointer">
         <span className="text-pink-primary group-hover:text-blue-primary group-hover:drop-shadow-md transition-colors">
           Lia
@@ -20,7 +20,7 @@ const Navbar = () => {
         <input
           type="text"
           className="outline-none text-blue-950 bg-blue-secondary rounded-l-lg w-full px-3 h-full"
-          placeholder="Search"
+          placeholder="Lagi mau maem apa nih?"
         />
         <button className="h-full">
           <IoSearchSharp
