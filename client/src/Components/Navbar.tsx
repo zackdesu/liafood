@@ -2,7 +2,7 @@ import { IoSearchSharp } from "react-icons/io5";
 import { FaCartShopping } from "react-icons/fa6";
 const Navbar = () => {
   return (
-    <header className="fixed px-5 py-3 flex justify-between items-center w-full bg-blue-secondary text-slate-50 border-b border-slate-300 shadow-md rounded-b-md">
+    <header className="fixed px-5 py-3 flex justify-between items-center w-full bg-blue-secondary text-slate-50 border-b border-slate-300 shadow-md rounded-b-md z-50">
       <h1 className="group cursor-pointer">
         <span className="text-pink-primary group-hover:text-blue-primary group-hover:drop-shadow-md transition-colors">
           Lia
@@ -11,11 +11,6 @@ const Navbar = () => {
           Food
         </span>
       </h1>
-      {/* <ul className="flex w-1/4 justify-between">
-        <li>Home</li>
-        <li>Product</li>
-        <li>Contact</li>
-      </ul> */}
       <form className="flex items-center w-2/4 max-sm:hidden h-8 border rounded-lg">
         <input
           type="text"
