@@ -6,7 +6,7 @@
 @layer base {
   html,
   body {
-    @apply h-full scroll-smooth font-LeagueSpartan bg-slate-50;
+    @apply h-full scroll-smooth font-LeagueSpartan bg-blue-secondary selection:bg-pink-primary selection:text-blue-secondary;
   }
 
   #root {
